@@ -1,0 +1,77 @@
+* {
+  font-family: sans-serif;
+  background-color: #ffcc99;
+}
+
+h1 {
+  color: #5d4037;
+}
+
+header {
+  text-align: center;
+}
+
+h3 {
+  color: red;
+}
+
+main {
+  text-align: center;
+}
+
+main {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 2fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.sad {
+  width: 30%;
+  height: 30%;
+}
+
+.happy {
+  width: 30%;
+  height: 30%;
+}
+
+li {
+  list-style: none;
+}
+
+a:link {
+  color: aqua;
+}
+
+a:visited {
+  color: salmon;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: coral;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+p,
+li,
+h3 {
+  font-size: 20px;
+}
+
+strong {
+  color: darkred;
+}
